@@ -1,0 +1,12 @@
+D:\DevApps\master\source\Tools\RollupAggregator\RollupAggregator\bin\Debug\RollupAggregator.exe.config
+D:\DevApps\master\source\Tools\RollupAggregator\RollupAggregator\bin\Debug\RollupAggregator.exe
+D:\DevApps\master\source\Tools\RollupAggregator\RollupAggregator\bin\Debug\RollupAggregator.pdb
+D:\DevApps\master\source\Tools\RollupAggregator\RollupAggregator\obj\Debug\RollupAggregator.csprojResolveAssemblyReference.cache
+D:\DevApps\master\source\Tools\RollupAggregator\RollupAggregator\obj\Debug\RollupAggregator.exe
+D:\DevApps\master\source\Tools\RollupAggregator\RollupAggregator\obj\Debug\RollupAggregator.pdb
+D:\Other Work\RollupAggregator\RollupAggregator\bin\Debug\RollupAggregator.exe.config
+D:\Other Work\RollupAggregator\RollupAggregator\obj\Debug\RollupAggregator.exe
+D:\Other Work\RollupAggregator\RollupAggregator\obj\Debug\RollupAggregator.pdb
+D:\Other Work\RollupAggregator\RollupAggregator\bin\Debug\RollupAggregator.exe
+D:\Other Work\RollupAggregator\RollupAggregator\bin\Debug\RollupAggregator.pdb
+D:\Other Work\RollupAggregator\RollupAggregator\obj\Debug\RollupAggregator.csprojResolveAssemblyReference.cache
