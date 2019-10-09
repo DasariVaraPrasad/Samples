@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1ED3C612-41D4-4C67-925E-3FB3D0CD4D89}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DimensionRollupAggregation</RootNamespace>
+    <AssemblyName>DimensionRollupAggregation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ConsolidationStatusPOC\ConsolidationStatusPOC\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\BaseMember.cs" />
+    <Compile Include="Entities\CompositionType.cs" />
+    <Compile Include="Entities\DimensionSelection.cs" />
+    <Compile Include="Entities\ExtendedHierarchyMember.cs" />
+    <Compile Include="Entities\ExtendedMemberOption.cs" />
+    <Compile Include="Entities\FinanceSegment.cs" />
+    <Compile Include="Entities\GL\GLRecord.cs" />
+    <Compile Include="Entities\GL\GLRecordAmount.cs" />
+    <Compile Include="Entities\GL\GLRecordAmounts.cs" />
+    <Compile Include="Entities\GL\GLSegments.cs" />
+    <Compile Include="Entities\HierarchyMember.cs" />
+    <Compile Include="Entities\HierarchyMemberAncestor.cs" />
+    <Compile Include="Entities\HierarchyMetaData.cs" />
+    <Compile Include="Entities\IMember.cs" />
+    <Compile Include="Entities\MemberOption.cs" />
+    <Compile Include="Entities\MemberType.cs" />
+    <Compile Include="Entities\Segment.cs" />
+    <Compile Include="Entities\SegmentType.cs" />
+    <Compile Include="Entities\Selection.cs" />
+    <Compile Include="Entities\TimeFormat.cs" />
+    <Compile Include="Entities\TimeHierarchy.cs" />
+    <Compile Include="Entities\VisitorType.cs" />
+    <Compile Include="Managers\MetaDataManager.cs" />
+    <Compile Include="Managers\Utility.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\Aggregation\Impl\AllChildrenAggregation.cs" />
+    <Compile Include="Services\Factory\AggregationFactory.cs" />
+    <Compile Include="Services\Factory\DimensionAggregationFactory.cs" />
+    <Compile Include="Services\Visitor\Impl\BaseDimensionAggregationVisitor.cs" />
+    <Compile Include="Services\Aggregation\Impl\ChildrenAggregation.cs" />
+    <Compile Include="Services\Visitor\Impl\CompositeDimensionAggregationVisitor.cs" />
+    <Compile Include="Services\Composition\Impl\DimensionMember.cs" />
+    <Compile Include="Services\Composition\Impl\DimensionWholePartHierarchy.cs" />
+    <Compile Include="Services\Aggregation\IAggregation.cs" />
+    <Compile Include="Services\Visitor\IDimensionAggregationVisitor.cs" />
+    <Compile Include="Services\Composition\IDimensionMember.cs" />
+    <Compile Include="Services\Aggregation\Impl\LeavesAggregation.cs" />
+    <Compile Include="Services\MustInitialize.cs" />
+    <Compile Include="Services\Visitor\Impl\PartDimensionAggregationVisitor.cs" />
+    <Compile Include="Services\Aggregation\Impl\BaseAggregation.cs" />
+    <Compile Include="Services\Aggregation\Impl\SelectedAggregation.cs" />
+    <Compile Include="Services\Aggregation\Impl\SelectedAndAllChildernAggregation.cs" />
+    <Compile Include="Services\Aggregation\Impl\SelectedAndChildrenAggregation.cs" />
+    <Compile Include="Services\Aggregation\Impl\SelectedAndLeavesAggregation.cs" />
+    <Compile Include="Services\Aggregation\Impl\SelectedAndParentsAggregation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

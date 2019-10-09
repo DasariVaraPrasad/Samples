@@ -1,0 +1,18 @@
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\bin\Debug\DimensionRollupAggregation.exe.config
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\bin\Debug\DimensionRollupAggregation.exe
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\bin\Debug\DimensionRollupAggregation.pdb
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.csprojAssemblyReference.cache
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.csproj.CoreCompileInputs.cache
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.csproj.CopyComplete
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.exe
+C:\Users\mkuna\source\repos\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.pdb
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\bin\Debug\DimensionRollupAggregation.exe.config
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\bin\Debug\DimensionRollupAggregation.exe
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\bin\Debug\DimensionRollupAggregation.pdb
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\bin\Debug\Newtonsoft.Json.dll
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.csprojAssemblyReference.cache
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.csproj.CoreCompileInputs.cache
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.csproj.CopyComplete
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.exe
+D:\Other Work\DimensionRollupAggregation\DimensionRollupAggregation\obj\Debug\DimensionRollupAggregation.pdb
